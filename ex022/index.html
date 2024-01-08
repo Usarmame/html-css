@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fonte 001</title>
+    <style>
+         :root{
+            --cor1:#000;
+            --cor2:cyan;
+            --cor3:rgb(255, 0, 0);
+            --cor4:rgb(0, 255, 0);
+         }
+
+        div.quadrado{
+            border: 2px solid var(--cor1);
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            border-radius: 9px;
+        }
+
+        div#q1{
+            background-color:var(--cor2) ;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, var(--cor3), var(--cor4) );
+        }
+
+        div#q3{
+            background-image: url('imagens/pattern003.png');
+        }
+
+        body{
+            background-image:url('imagens/wallpaper001.jpg') ;
+        }
+    </style>
 </head>
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
 </body>
 </html>
