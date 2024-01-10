@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas complexas</title>
+    <style>
+        @charset "UTF-8";
+
+        td, tfoot{
+            border: 1.5px solid black;
+        }
+          
+         thead{
+            border:1.5px solid black;
+         }
+
+        td, th{
+            padding: 5px;
+            border:1.5px solid black ;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        tfoot, thead{
+            background-color: rgb(92, 92, 92);
+            color: #fff;
+            text-align: center;
+        }
+
+        .num{
+            text-align: right;
+        }
+
+        caption{
+            font-family: serif;
+        }
+
+        .cap{
+            background-color: rgba(128, 128, 128, 0.521);
+            padding: 5px;
+            border: 1.5px solid black;
+            border-bottom: 0;
+            font-size: 1.5em;
+        }
+
+        tbody > tr:nth-child(2n-1){
+            background-color: rgb(136, 148, 161);
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: rgb(162, 190, 190);
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -0.5px;
+            background-color:  rgb(92, 92, 92);
+        }
+
+        p{
+            text-indent: 30px;
+            text-align: justify;
+            font-family: cursive;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption class="cap" scope="col" style="width: 600px;">População de Moçambique</caption>
+        <thead>
+            <tr>
+                <th scope="col" >Província</th>
+                <th scope="col" style="width: 200px;">População</th>
+            </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <td>Maputo Cidade</td>
+                <td class="num">2.234.894,00</td>
+            </tr>
+
+            <tr>
+                <td>Maputo Província</td>
+                <td class="num">1.000.001,00</td>
+            </tr>
+
+                <tr>
+                    <td>Gaza</td>
+                    <td class="num">3.000.234,00</td>
+                </tr>
+                <tr>
+                    <td>Inhambane</td>
+                    <td class="num">4.876.453,00</td>
+                </tr>
+                <tr>
+                    <td>Manica</td>
+                    <td class="num">2.520.499,00</td>
+                </tr>
+                <tr>
+                    <td>Sofala</td>
+                    <td class="num">5.000.475,00</td>
+                </tr>
+                <tr>
+                    <td>Quelimane</td>
+                    <td class="num">7.000.679,00</td>
+                </tr>
+                <tr>
+                    <td>Nampula</td>
+                    <td class="num">8.867.955,00</td>
+                </tr>
+                <tr>
+                    <td>Niassa</td>
+                    <td class="num">6.876.844,00</td>
+                </tr>
+                <tr>
+                    <td>Tete</td>
+                    <td class="num">5.843.846,00</td>
+                </tr>
+                <tr>
+                    <td>Cabo Delgado</td>
+                    <td class="num">2.875.976,00</td>
+                </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="num" scope="row">50.097.851,00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis molestiae ratione aliquid magnam unde eaque, quibusdam dicta dolor aut ad quaerat nulla recusandae rem, porro nihil distinctio eos laudantium eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia expedita quibusdam sequi, libero, laudantium distinctio beatae illum eligendi doloremque totam rem eos, deserunt suscipit. Commodi incidunt possimus tempora provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci rem excepturi laborum qui ipsam molestiae non doloribus nobis magnam! Veritatis possimus, dicta voluptates natus minus tenetur est velit molestiae saepe!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis molestiae ratione aliquid magnam unde eaque, quibusdam dicta dolor aut ad quaerat nulla recusandae rem, porro nihil distinctio eos laudantium eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia expedita quibusdam sequi, libero, laudantium distinctio beatae illum eligendi doloremque totam rem eos, deserunt suscipit. Commodi incidunt possimus tempora provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci rem excepturi laborum qui ipsam molestiae non doloribus nobis magnam! Veritatis possimus, dicta voluptates natus minus tenetur est velit molestiae saepe!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis molestiae ratione aliquid magnam unde eaque, quibusdam dicta dolor aut ad quaerat nulla recusandae rem, porro nihil distinctio eos laudantium eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia expedita quibusdam sequi, libero, laudantium distinctio beatae illum eligendi doloremque totam rem eos, deserunt suscipit. Commodi incidunt possimus tempora provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci rem excepturi laborum qui ipsam molestiae non doloribus nobis magnam! Veritatis possimus, dicta voluptates natus minus tenetur est velit molestiae saepe!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis molestiae ratione aliquid magnam unde eaque, quibusdam dicta dolor aut ad quaerat nulla recusandae rem, porro nihil distinctio eos laudantium eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia expedita quibusdam sequi, libero, laudantium distinctio beatae illum eligendi doloremque totam rem eos, deserunt suscipit. Commodi incidunt possimus tempora provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci rem excepturi laborum qui ipsam molestiae non doloribus nobis magnam! Veritatis possimus, dicta voluptates natus minus tenetur est velit molestiae saepe!</p>
+</body>
+</html>
