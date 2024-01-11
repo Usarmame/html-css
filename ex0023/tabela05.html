@@ -12,66 +12,166 @@
         td, th{
             border: 1px solid black;
         }
+        th{
+        background-color: ;
+        padding: 7px;
+       }
 
-        div#br{
-            overflow-x: auto;
+        td, th{
+            border: 1px solid #000;
         }
+
+        tr:nth-child(odd){
+            background-color:;
+        }
+
     </style>
 </head>
 <body>
-    <div id="br">
+    <h1>Mexendo em tabela usando colgroup</h1>
         <table>
-            <h1>Tabela respon</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint perspiciatis veritatis corporis beatae, at provident qui dolor blanditiis accusantium architecto in atque nihil magni possimus sit, quia natus pariatur itaque.</p>
-            <tr>
-                <th>Saldo</th>
-                <td>Viva a vida</td>
-                <td>Ser ou não ser eis a questão</td>
-                <td>Seja oque for que seja sempre será</td>
-                <td>loba remtap</td>
-                <td>popa</td>
-                <td>vgdcryxhgfjghcc</td>
-                <td>chgcgcjc</td>
+
+         <colgroup>
+        
+        <col style="background-color: aqua;">
+        
+        <col span="3"  style="background-color: yellow;">
+        <col span="3" style="background-color: violet;">
+        <col style="background-color: rgb(201, 0, 0);" span="3">
+        <col span="3" style="background-color: greenyellow;">
+        
+        </colgroup>
+
+            <caption style="padding: 7px; font-weight: bold;border: 1px solid black; border-bottom: 0px; background-color: aquamarine;">Telas Responsivas</caption>
+            <tr >
+                <th>Produto</th>
+                <th>Jan</th>
+                <th>Fev</th>
+                <th>Mar</th>
+                <th>Abr</th>
+                <th>Mai</th>
+                <th>Jun</th>
+                <th>Jul</th>
+                <th>Ago</th>
+                <th>Set</th>
+                <th>Out</th>
+                <th>Nov</th>
+                <th>Dez</th>
             </tr>
             <tr>
-                <th>Saldo</th>
-                <td>Viva a vida</td>
-                <td>Ser ou não ser eis a questão</td>
-                <td>Seja oque for que seja sempre será</td>
-                <td>loba remtap</td>
-                <td>popa</td>
-                <td>vgdcryxhgfjghcc</td>
-                <td>chgcgcjc</td>
+                <td>TV 40''</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
             </tr>
             <tr>
-                <th>Saldo</th>
-                <td>loba remtap</td>
-                <td>popa</td>
-                <td>vgdcryxhgfjghcc</td>
-                <td>chgcgcjc</td>
-                <td>Viva a vida</td>
-                <td>Ser ou não ser eis a questão</td>
-                <td>Seja oque for que seja sempre será</td>
-                
-            </tr> <tr>
-                <th>Saldo</th>
-                <td>Viva a vida</td>
-                <td>Ser ou não ser eis a questão</td>
-                <td>Seja oque for que seja sempre será</td><td>loba remtap</td>
-                <td>popa</td>
-                <td>vgdcryxhgfjghcc</td>
-                <td>chgcgcjc</td>
-            </tr> <tr>
-                <th>Saldo</th>
-                <td>Viva a vida</td>
-                <td>Ser ou não ser eis a questão</td>
-                <td>Seja oque for que seja sempre será</td>
-                <td>loba remtap</td>
-                <td>popa</td>
-                <td>vgdcryxhgfjghcc</td>
-                <td>chgcgcjc</td>
+                <td>Home Theater</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>
+                    Samsung Galaxy S20
+                </td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Ipad Mini</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>
+                    PlayStation 4
+                </td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>
+                    Lava Louças
+                </td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>
+                    Amazon Echo
+                </td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
             </tr>
         </table>
-    </div>
+    
 </body>
 </html>
