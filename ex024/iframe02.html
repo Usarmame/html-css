@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando iframe único para vários sites</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+        }
+
+        iframe{
+          width: 98vw;
+          height: 50vh;
+        }
+
+        a:hover{
+            color: rgb(8, 68, 121);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Múltiplos sites no iframe
+    </h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat autem eligendi consequatur dolore fuga expedita! Asperiores dolores corrupti ab perferendis voluptatibus quae magnam accusantium aliquam molestiae, fugiat omnis modi quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quia voluptas. Eaque inventore in veritatis quidem ut, nostrum ex cupiditate eius porro aspernatur, possimus illo quia perspiciatis? Sed, aperiam amet.</p>
+    <p>
+        <h2>Links para site</h2>
+        <ul>
+            <li>
+                <a href="Páginas para o iframe 2/cordel.html" target="frame">Acesse ao site cordel</a>
+            </li>
+            <li>
+                <a href="Páginas para o iframe 2/tabela06.html" target="frame">Acesse a tabela responsiva</a>
+            </li>
+            <li>
+                <a href="Páginas para o iframe 2/index.html" target="frame">Acesse ao site do Android</a>
+            </li>
+        </ul>
+    </p>
+    <p>
+        Clique em um dos links acima.
+    </p>
+    <iframe srcdoc="
+    <body style='background-color:cyan; font-family:Verdana, Tahoma, sans-serif;'>
+    <h1>
+     Caro usuário poderá ter acesso aos conteúdos clicando nos sites. &uparrow;
+    </h1>
+    <p style='font-weight:700;'>
+        Para voltar a esta tela terá de atualizar a tela!
+    </p>
+</body>
+    " frameborder="1" name="frame">
+     <p>Lamentamos em informar que o seu navegador não é compatível com o conteúdo!</p>
+    </iframe>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit tempora tenetur quasi molestias incidunt? Quod at natus, mollitia quos excepturi eos officiis molestiae possimus nostrum sunt, rem, assumenda officia error? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem exercitationem assumenda. Autem, reprehenderit! Magnam quibusdam dolore debitis voluptates soluta aspernatur odit enim ratione eos, doloremque, aperiam ipsum quod libero!
+    </p>
+</body>
+</html>
