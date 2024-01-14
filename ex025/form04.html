@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Dois tipos de checkbox</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Desportos:</legend>
+            <label for="check">
+                Futebol:
+            </label>
+            <input type="checkbox" name="right" id="check"> <br>
+            <label for="bs">
+                Basquete:
+            </label>
+            <input type="checkbox" name="bsqt" id="bs"> <br>
+             <label for="alt">
+                Atletismo:
+             </label>
+             <input type="checkbox" name="at" id="alt"> <br>
+             <label for="chs">
+                Xadrez:
+             </label>
+             <input type="checkbox" name="chess" id="chs" checked>
+        </fieldset>
+    </form>
+<br>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Ou a ou b</legend>
+            <label for="se">
+                Masculino
+            </label>
+            <input type="radio" name="sex" id="se"> <br>
+            <label for="No">
+                Feminino:
+            </label>
+            <input type="radio" name="sex" id="No">
+        </fieldset>
+    </form>
+</body>
+</html>

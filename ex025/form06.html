@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalist e textarea</title>
+</head>
+<body>
+    <h1>Outros forms</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="ipro">
+                Província:
+            </label>
+            <select name="Prov" id="ipro" required>
+                <option value="THs">
+                    Escolha
+                </option>
+                <optgroup label="Zona sul">
+                    <option value="Mp">
+                        Maputo
+                    </option>
+                    <option value="Gz">
+                        Gaza
+                    </option>
+                    <option value="In">
+                        Inhambane
+                    </option>
+                </optgroup>
+                <optgroup label="Zona centro">
+                    <option value="Mn">
+                        Manica
+                    </option>
+                    <option value="Sf">
+                        Sofala
+                    </option>
+                    <option value="Ch">
+                        Chimoio
+                    </option>
+                </optgroup>
+                <optgroup label="Zona Norte">
+                   <option value="Te">
+                    Tete
+                   </option>
+                   <option value="Zb">
+                    Zambézia
+                   </option>
+                   <option value="Ns">
+                    Niassa
+                   </option>
+                   <option value="Cd">
+                    Cabo Delgado
+                   </option>
+                </optgroup>
+            </select>
+        </div>
+           <div>
+            <label for="Zo">
+                Zonas:
+            </label>
+            <input type="text" name="Zn" id="Zo" list="Zon" required>
+            <datalist id="Zon">
+                <option value="Zv">
+                    Zona Verde
+                </option>
+                <option value="Mr">
+                    Marracuene
+                </option>
+                <option value="Mc">
+                    Machava
+                </option>
+                <option value="Mt">
+                    Matutuíne
+                </option>
+                <option value="Ml">
+                    Malanga
+                </option>
+            </datalist>
+           </div>
+
+         <div>
+            <label for="Mes">
+                Mensagem:
+            </label> <br>
+            <textarea name="Msg" id="Mes" cols="16" rows="6" required placeholder="Sua Mensagem" >
+            </textarea>
+         </div>
+
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

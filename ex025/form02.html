@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2º</title>
+    <style>
+        fieldset{
+            border: 2px solid black;
+            width: 90vw;
+            text-align: left;
+            background-color:rgb(177, 177, 177) ;
+        }
+
+        legend{
+            text-align: center;
+            border: 2px solid black;
+            background-color:rgb(177, 177, 177)  ;
+        }
+
+        input{
+            background-color: darkslategrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Segundo formulário</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <fieldset>
+                <legend>Formulário de método POST.</legend>
+                <label for="inome">
+                    Nome:
+                </label>
+                <input type="text" name="nome" id="inome" required placeholder="Edwin" size="9" autocomplete="username"> <br>
+                <label for="isobrenome">
+                    Sobrenome:
+                </label>
+                <input placeholder="Machuza" type="text" name="Sobrenome" id="isobrenome" required size="8" autocomplete="username"> <br>
+                <label for="ipass">Password:</label>
+                <input type="password" name="password" id="ipass" required minlength="4" maxlength="6" placeholder="******" autocomplete="new-password" size="6"> <br>
+                <input type="submit" value="Enviar"> <br> <br>
+                <input type="reset" value="Limpar">
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
