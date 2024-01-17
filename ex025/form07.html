@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outputs</title>
+</head>
+<body>
+    <h1>
+        Outputs
+    </h1>
+    <form action="cadastro.php">
+        <div>
+            <label for="num1">
+                Número 1:
+            </label>
+            <input type="number" name="numero1" id="num1" max="50" min="0" required oninput="som.innerHTML = Number(num1.value) + Number(num2.value)"> <br> <br>
+            <label for="num2">Número 2:</label>
+            <input type="number" name="numero2" id="num2" max="50" min="0" required oninput="som.innerHTML = Number(num1.value) + Number(num2.value)">
+        </div>
+        <br>
+        <div>
+            <label for="som">
+                Soma:
+            </label>
+            <output name="soma" id="som">
+                0
+            </output> 
+        </div>
+        <br>
+        <input type="reset" value="Limpar"> 
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

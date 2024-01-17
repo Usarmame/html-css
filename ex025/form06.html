@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select, datalist e textarea</title>
+    <style>
+        body{
+            width:600px;
+            height:400px;
+            background-color: aqua;
+        }
+
+        textarea{
+            background-color: rgba(202, 33, 33, 0.952);
+        }
+    </style>
 </head>
 <body>
     <h1>Outros forms</h1>
@@ -13,7 +24,7 @@
                 Província:
             </label>
             <select name="Prov" id="ipro" required>
-                <option value="THs">
+                <option value="THs" style="font-weight: 00;">
                     Escolha
                 </option>
                 <optgroup label="Zona sul">
@@ -58,7 +69,7 @@
             <label for="Zo">
                 Zonas:
             </label>
-            <input type="text" name="Zn" id="Zo" list="Zon" required>
+            <input type="text" name="Zn" id="Zo" list="Zon" required style="background-color: orange;">
             <datalist id="Zon">
                 <option value="Zv">
                     Zona Verde
