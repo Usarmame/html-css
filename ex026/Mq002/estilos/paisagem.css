@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
-/*
-Para landscape
-*/
+/*Para landscape*/
+
+body{
+    background-color: orange;
+}

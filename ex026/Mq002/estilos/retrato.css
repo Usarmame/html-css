@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
-/*
-Para Portrait
-*/
+/*Para Portrait*/
+
+body{
+    background-color: #00ff37;
+}
