@@ -3,5 +3,8 @@
 /*Para landscape*/
 
 body{
-    background-color: orange;
+    background-image: url('../imagens/cev-landscape.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
 }

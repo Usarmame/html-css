@@ -3,5 +3,7 @@
 /*Para Portrait*/
 
 body{
-    background-color: #00ff37;
+    background-image:url('../imagens/cev-portrait.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }

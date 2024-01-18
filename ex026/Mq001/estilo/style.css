@@ -21,6 +21,10 @@ article::after{
     content: 'Esse site está sendo escrito por Usarmame.github.io.';
 }
 
+ul{
+    list-style-type: none;
+}
+
 main{
     width: 100%;
 }
