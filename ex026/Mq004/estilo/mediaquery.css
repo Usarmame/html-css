@@ -5,9 +5,9 @@
     
 }
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media all and (min-width:769px) and (max-width:992px) {
     body{
-        background-image: url('../imagens/back-tablet.jpg');
+        background-image: url(../back-tablet.jpg);
     }
     img#pitone{
         display: none;
@@ -31,9 +31,41 @@
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
+
+    body{
+        background-image: url(../back-pc.jpg);
+    }
+    img#pitone{
+        display: none;
+    }
     
+    img#tablete{
+        display: none;
+    }
+    
+    img#putador{
+        display: block;
+    }
+    
+    img#sung{
+        display: none;
+    }
+    
+    img#impress{
+        display: none;
+    }
 }
 
 @media screen and (min-width:1200px){
-    
+    body{
+        background-image: url(../back-tv.jpg);
+    }
+
+    img#sung{
+        display: block;
+    }
+
+    img#pitone{
+        display: none;
+    }
 }
