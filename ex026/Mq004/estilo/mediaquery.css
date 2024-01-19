@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+@media print {
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: url('../imagens/back-tablet.jpg');
+    }
+    img#pitone{
+        display: none;
+    }
+    
+    img#tablete{
+        display: block;
+    }
+    
+    img#putador{
+        display: none;
+    }
+    
+    img#sung{
+        display: none;
+    }
+    
+    img#impress{
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    
+}
+
+@media screen and (min-width:1200px){
+    
+}
