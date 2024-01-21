@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+}
+
+header > h1{
+    padding: 10px;
+
+}
+
+header > ul > li{
+    padding: 5px;
+    border-top: 1px solid rgb(201, 201, 201);
+    background-color: rgb(99, 99, 99);
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+main{
+    background-color: rgb(167, 167, 167);
+    margin: auto;
+    width: 80vw;
+    margin-bottom: 5px;
+    padding: 14px;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+main article p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+header ul li:hover{
+    background-color: gray;
+}

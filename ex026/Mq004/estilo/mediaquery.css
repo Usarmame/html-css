@@ -2,7 +2,38 @@
 
 
 @media print {
-    
+   *{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+   }
+
+   body{
+    background-image: url(../back-print.jpg);
+    border: 3px solid black;
+   }
+   img#pitone{
+    display: none;
+}
+
+img#tablete{
+    display: none;
+}
+
+img#putador{
+    display: none;
+}
+
+img#sung{
+    display: none;
+}
+
+img#impress{
+    display: block;
+}
+body::after{
+    content: 'Criado por Edwin Machuza';
+    font-weight: 700;
+}
 }
 
 @media all and (min-width:769px) and (max-width:992px) {
