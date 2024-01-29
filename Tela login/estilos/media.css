@@ -6,13 +6,26 @@
         background-color: black;
     }
 
+    form div.camp{
+        background-color: #434044;}
+
+    div.camp input:focus-within{
+        background-color: #000000;
+        color: white;
+    }
+
+    main section#login div#camp{
+        background-color: gray;
+    }
+
     main section#login{
         width: 80vw;
-       
+       height: 350px;
     }
 
     main section#login div#img{
         background-image: url(../img/pexels-erik-schereder-18854872.jpg);
+        background-position: bottom center;
         float: right;
         width: 30%;
         height: 100%;
@@ -41,6 +54,7 @@
 
     main section#login{
         width: 950px;
+        height:425px ;
     }
 
     main section#login div#img{

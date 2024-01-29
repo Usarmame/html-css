@@ -4,7 +4,7 @@
     --cor1:#49a09d;/*green*/
     --cor2:#5f2c82;/*purple*/
 }
-
+ 
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 0;
@@ -27,7 +27,7 @@ main{
 
 main section#login{
     background-color: #fff;
-    height: 500px;
+    height: 510px;
     width: 250px;
     position: absolute;
     top: 50%;
@@ -95,3 +95,32 @@ form a.but{
 form a.but:hover{
     background-color: #65dfdb;
 }
+
+form div.camp input{
+    width: 100%;
+   height: 41px;
+    background-color: #e9ecec;
+    font-size: 0.8em;
+    border-radius: 5px;
+    border: none;
+    transform: translateY(-.5px);
+    text-align: center;
+}
+
+form div.camp{
+    background-color: #5f2c82;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    height: 50px;
+    width: 99%;
+}
+
+div.camp label{
+    display: none;
+}
+
+div.camp input:focus-within{
+    background-color: #fff;
+}
+
