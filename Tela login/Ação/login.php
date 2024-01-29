@@ -1,0 +1,1 @@
+Olá, obrigado por entregar-nos o seu e-mail. Com isso conseguiu gastar o seu tempo nesta tela de login. Fofucho(a).

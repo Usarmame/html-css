@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#49a09d;/*green*/
+    --cor2:#5f2c82;/*purple*/
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-image:linear-gradient(-45deg, aqua 30%, rgb(38, 185, 136));
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+main section#login{
+    background-color: #fff;
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+    transition: width .3s, height .2s;/*esse atributo dará tempo para que a mudança de altura de de altura tenha esse mesmo tempo*/
+    transition-timing-function: ease;
+}
+
+main section#login > div#img{
+    display: block;
+    background-image: url(../img/pexels-pixabay-256150.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div#form{
+    padding: 10px;
+    display: block;
+}
+
+div#form h1{
+    text-align: center;
+}
+
+div#form p{
+    font-size: 0.8em;
+}
+
+form input[type=submit]{
+    display: block;
+    font-size: 0.8em;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 40px;
+    background-color: #49a09d;
+    cursor: grab;
+}
+
+form input[type=submit]:hover{
+    background-color: #224746;
+}
+
+form a.but{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top:5px ;
+    color: #2e6361;
+    text-decoration: none;
+}
+
+form a.but:hover{
+    background-color: #65dfdb;
+}

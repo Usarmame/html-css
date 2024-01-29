@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.349), rgba(255, 255, 255, 0.438));
+        background-color: black;
+    }
+
+    main section#login{
+        width: 80vw;
+       
+    }
+
+    main section#login div#img{
+        background-image: url(../img/pexels-erik-schereder-18854872.jpg);
+        float: right;
+        width: 30%;
+        height: 100%;
+    }
+
+    main section#login div#form{
+       float: left;
+       width: 70%;
+    }
+
+    div#form h1{
+        text-align: center;
+    }
+    
+    div#form p{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:992px)  {
+    body{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 251, 251, 0.555));
+        background-color: black;
+    }
+
+    main section#login{
+        width: 950px;
+    }
+
+    main section#login div#img{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-image: url('../img/pexels-reynaldo-brigworkz-brigantty-771883.jpg');
+        background-size: cover;
+    }
+
+    main section#login div#form{
+        float: right;
+        width: 50%;
+    }
+
+    div#form h1{
+        text-align: center;
+    }
+    
+    div#form p{
+        font-size: 1.7em;
+        font-weight: 600;
+    }
+}
