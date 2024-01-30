@@ -1,19 +1,114 @@
-|<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recuperação da palavra-passe</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html{
+
+        }
+        
         body{
-            background-color: black;
+            background-color: green;
+        }
+
+        body > main > header > h1{
+            background-color: rgb(20, 143, 102);
+        }
+
+        main{
+            height: 310px;
+            width: 400px;
+            margin: auto;
+            background-color: rgb(24, 255, 178);
+            padding: 30px;
+            border-radius: 0px 0px 9px 9px ;
+        }
+
+        header{
+            background-color: rgb(34, 207, 150);
+        }
+        
+        header h1{
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+            text-align: center;
+            color: rgb(231, 73, 73);
+        }
+
+        p{
+            font-size: 1.4em;
+            text-indent: 20px;
+            margin-bottom: 5px;
+            text-align: justify;
+        }
+
+        ul{
+            list-style-position: inside;
+        }
+
+        ul > li > p{
+            text-indent: none;
+            padding: 5px;
+        }
+
+        @media screen and (max-width:768px)  {
+            main{
+                width: 300px;
+                height: 220px;
+            }
+
+            header h1{
+                color: rgba(0, 0, 255, 0.719);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 500;
+                font-size: 1.4em;
+            }
+
+            main p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Olá</h1>
-    <p>
-
-    </p>
+    <header>
+        <h1>
+            Método de recuperação da palavra-passe
+        </h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                De lamentar que o Sr(a) tenha perdido ou esquecido a sua palavra-passe, siga os seguintes passos para recupera-lá:
+            </p>
+            <ul>
+                <li>
+                    Reinicie o seu dispositivo;
+                </li>
+                <li>
+                    Recarregue o seu dispositivo;
+                </li>
+                <li>
+                    Mande a sua preocupação para este gmail: edwinmachuza02@gmail.com.
+                </li>
+            </ul>
+            <p>
+                Se o seu problema não for resolvido lamentamos em informar que a sua palavra-passe já não existe na nossa base de dados.
+            </p>
+        </div> <br>
+        <p style="text-align: center; font-size: 0.6em;">
+            <small >
+                ESTE SITE DE LOGIN FOI CRIADO PARA EFEITOS DE RECREAÇÃO.
+            </small>
+        </p>
+    </main>
 </body>
 </html>
